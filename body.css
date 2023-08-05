@@ -1,0 +1,49 @@
+body
+   {
+	margin: 0;
+	padding: 0;
+	display: float;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    background: url("https://source.unsplash.com/user/erondu/1600x900");
+    background-size: cover;
+    background-position: center;                                     
+	
+}
+ul
+{
+	 margin: 0;
+	 padding: 0;
+	 display: flex;
+}
+ul li
+{    
+      list-style: none;
+	  margin: 0 10px;
+	  transition: 0.5s;
+}
+ul li a
+{
+	display: block;
+	position: relative;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #9ACD32;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+ul:hover li a
+{
+    transform: scale(1.0);
+    opacity: .1;
+    filter: blur(3px);
+}	
+ul li a:hover
+{
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+}
